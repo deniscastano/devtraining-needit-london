@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="1"/>
+                <element inactive_on_update="false" label="Open" value="0"/>
+            </choice>
+        </element>
+    </element>
+</database>
